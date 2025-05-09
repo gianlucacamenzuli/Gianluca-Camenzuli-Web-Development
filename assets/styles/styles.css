@@ -41,6 +41,10 @@ p {
   color: #fff;
 }
 
+a {
+  text-decoration: 0;
+}
+
 .btn-primary {
   background-color: #ee2f4f;
   border-color: #ee2f4f;
@@ -515,11 +519,68 @@ footer ul li {
   border-radius: .3rem;
 }
 
+.section-box-price {
+  background-color: #ffc0d1;
+  color: #ee2f4f !important;
+  padding: .5rem 1rem;
+  display: inline-block;
+  border-radius: .3rem;
+}
+
 .dedicated-main .card-body {
   padding: 2rem 2.5rem;
 }
 
+.card-body-booking {
+  background-color: #071322;
+}
+
 .dedicated-main .section-box {
-  margin-top: 1rem;
   margin-right: .5rem;
+}
+
+.dedicated-main h2 {
+  margin-bottom: 1rem;
+}
+
+.card-body-booking h2 {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.card-body-booking p {
+  color: #fff;
+  margin-bottom: 0;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+}
+
+.dedicated-main ul {
+  color: #071322;
+  margin-bottom: 0;
+  padding-bottom: .25rem;
+}
+
+.dedicated-main .card {
+  margin-bottom: 1.5rem;
+}
+
+.dedicated-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+
+.back-button {
+  display: flex;
+  align-items: center;
+  color: #071322;
+}
+
+.back-button i {
+  margin-right: 0.5rem;
+}
+
+.fa .fa-angle-left {
+  color: #071322;
 }
