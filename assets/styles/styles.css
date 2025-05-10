@@ -274,7 +274,7 @@ a {
   width: 100%;
 }
 
-.card-img-top:hover {
+.card:hover .card-img-top {
   filter: opacity(50%);
   transition: 0.05s ease;
 }
@@ -705,5 +705,76 @@ footer ul li {
   .dedicated-main .header-container {
     bottom: 10%;
   }
+}
+
+
+
+
+
+.list-main .card {
+  margin-bottom: 1.5rem;
+}
+
+.list-main .card-body {
+  padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+}
+
+
+.list-main .section-box {
+  margin-right: .5rem;
+}
+
+.list-main h2 {
+  margin-bottom: 1rem;
+}
+
+.list-main ul {
+  color: #071322;
+  margin-bottom: 0;
+  padding-bottom: .25rem;
+}
+
+.list-main .card {
+  margin-bottom: 1.5rem;
+}
+
+.list-main .card .club-logo {
+  height: 4rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.list-card-img-top {
+  border-radius: 1rem 1rem 0rem 0rem;
+  height: 12rem;
+  object-fit: cover;
+  width: 100%;
+}
+
+.list-main .card h2 {
+  font-size: 1.5rem;
+  margin-bottom: .1rem;
+}
+
+.list-main .card li {
+  padding-bottom: .1rem;
+}
+
+.list-main .card-body img {
+  filter: none;
+}
+
+.list-main .section-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+
+.card:hover .card-img {
+  filter: opacity(50%);
+  transition: 0.05s ease;
 }
 
