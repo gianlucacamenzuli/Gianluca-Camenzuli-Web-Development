@@ -52,13 +52,13 @@ a {
   font-weight: 500;
   font-size: 1rem;
   padding: .5rem 1rem .5rem 1rem;
-  transition: color 0.05s ease;
+   transition: all 0s ease;
 }
 
 .btn-primary:hover {
   background-color: #ffc0d1;
   border-color: #ffc0d1;
-  transition: color 0.05s ease;
+   transition: all 0s ease;
 }
 
 .btn-primary:focus,
@@ -77,13 +77,13 @@ a {
   font-weight: 500;
   font-size: 1rem;
   padding: .5rem 1rem .5rem 1rem;
-  transition: color 0.05s ease;
+   transition: all 0s ease;
 }
 
 .btn-secondary:hover {
   background-color: #c7ccd3;
   border-color: #c7ccd3;
-  transition: color 0.05s ease;
+   transition: all 0s ease;
 }
 
 .btn-secondary:focus,
@@ -103,13 +103,13 @@ a {
   font-weight: 500;
   font-size: 1rem;
   padding: .5rem 1rem .5rem 1rem;
-  transition: color 0.05s ease;
+   transition: all 0s ease;
 }
 
 .btn-outline-secondary:hover {
   background-color: #f2f4f7;
   border-color: #5a626c;
-  transition: color 0.05s ease;
+   transition: all 0s ease;
   color: #5a626c;
 }
 
@@ -125,12 +125,12 @@ a {
 
 .navbar.scrolled .menu-logo {
   filter: none;
-  transition: color 0.2s ease;
+   transition: all 0s ease;
 }
 
 .navbar.scrolled .menu-logo:hover {
   filter: brightness(12) saturate(0.1);
-  transition: color 0.05s ease;
+   transition: all 0s ease;
 }
 
 .menu-links {
@@ -145,7 +145,7 @@ a {
   padding-left: 0 !important;
   margin-right: 2rem;
   color: #fff;
-  transition: color 0.05s ease;
+   transition: all 0s ease;
 }
 
 .nav-link:hover{
@@ -154,12 +154,12 @@ a {
 
 .navbar.scrolled .nav-link {
   color: #071322;
-  transition: color 0.2s ease;
+   transition: all 0s ease;
 }
 
 .navbar.scrolled .nav-link:hover {
   color: #c7ccd3;
-  transition: color 0.05s ease;
+   transition: all 0s ease;
 }
 
 @media (max-width: 991.98px) {
@@ -215,22 +215,22 @@ a {
 
 .navbar-white .nav-link {
   color: #071322;
-  transition: color 0.05s ease;
+   transition: all 0s ease;
 }
 
 .navbar-white .nav-link:hover {
   color: #c7ccd3;
-  transition: color 0.05s ease;
+   transition: all 0s ease;
 }
 
 .navbar-white .menu-logo {
   filter: none;
-  transition: color 0.05s ease;
+   transition: all 0s ease;
 }
 
 .navbar-white .menu-logo:hover {
   filter: brightness(12) saturate(0.1);
-  transition: color 0.05s ease;
+   transition: all 0s ease;
 }
 
 .navbar-white .navbar-toggler-icon {
@@ -297,7 +297,7 @@ a {
 
 .card:hover .card-img-top {
   filter: opacity(50%);
-  transition: 0.05s ease;
+   transition: all 0s ease;
 }
 
 .card-body {
@@ -342,7 +342,7 @@ a {
 .carousel-control-prev:hover .carousel-control-prev-icon,
 .carousel-control-next:hover .carousel-control-next-icon {
   opacity: 85%;
-  transition: 0.05s ease;
+   transition: all 0s ease;
 }
 
 main h2 {
@@ -482,7 +482,7 @@ footer ul li {
 
 .about-section-line {
   flex-grow: 1;
-  border-top: 2px solid #071322;
+  border-top: .15rem solid #071322;
   border-radius: 2px;
 }
 
@@ -494,7 +494,7 @@ footer ul li {
 
 .about-main .card:hover {
   box-shadow: 0 4px 8px #0713223A;
-  transition: 0.2s ease;
+ transition: all 0s ease;
 }
 
 .about-main .card p {
@@ -617,7 +617,7 @@ footer ul li {
 
 .dedicated-main .card:hover {
   box-shadow: 0 4px 8px #0713223A;
-  transition: 0.2s ease;
+   transition: all 0s ease;
 }
 
 .pitch-details li {
@@ -747,7 +747,6 @@ footer ul li {
   color: #071322;
   margin-bottom: 0;
   padding-bottom: .25rem;
-  padding-top: .1rem;
 }
 
 .list-main ul h3 {
@@ -795,7 +794,7 @@ footer ul li {
 
 .card:hover .card-img {
   filter: opacity(50%);
-  transition: 0.05s ease;
+  transition: all 0s ease;
 }
 
 
@@ -933,7 +932,7 @@ footer ul li {
 
 .contact-main .card:hover {
   box-shadow: 0 4px 8px #0713223A;
-  transition: 0.2s ease;
+   transition: all 0s ease;
 }
 
 .contact-main .card legend {
@@ -956,7 +955,7 @@ footer ul li {
   margin-bottom: .5rem;
   border-color: #c7ccd3;
   border-width: .1rem;
-  transition: 0.05s ease;
+  transition: all 0s ease;
 }
 
 .contact-main .card ::placeholder {
@@ -968,29 +967,29 @@ footer ul li {
 
 .contact-main .card .form-control:hover {
   border-color: #071322;
-  transition: color 0.05s ease;
+  transition: all 0s ease;
   background-color: #f9fafb;
 }
 
 .contact-main .card .form-control:hover::placeholder {
   color: #071322;
-  transition: 0.05s ease;
+  transition: all 0s ease;
 }
 
 .contact-main .card .form-control:focus {
   border-color: #ee2f4f;
-  transition: 0.05s ease;
+  transition: all 0s ease;
   box-shadow: none; 
 }
 
 .contact-main .card .form-control:focus::placeholder {
   color: transparent;
-  transition: 0.05s ease;
+   transition: all 0s ease;
 }
 
 .contact-main .card .form-control:not(:placeholder-shown):not(:focus) {
   border-color: #071322;
-  transition: 0.05s ease;
+   transition: all 0s ease;
 }
 
 .contact-main .card .form-check-label {
@@ -1014,7 +1013,7 @@ footer ul li {
   cursor: pointer;
   border: 1px solid #c7ccd3;
   background-color: #fff;
-  transition: 0.05s ease;
+   transition: all 0s ease;
 }
 
 
@@ -1038,7 +1037,7 @@ footer ul li {
 .contact-main .card .form-select {
   margin-bottom: 0.5rem;
   border-color: #c7ccd3 !important;
-  transition: 0.05s ease;
+   transition: all 0s ease;
   box-shadow: none;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -1048,30 +1047,30 @@ footer ul li {
 
 .contact-main .card .form-select:invalid {
   color: #5a626c;
-  transition: 0.05s ease;
+   transition: all 0s ease;
 }
 
 .contact-main .card .form-select:hover.form-select:invalid {
   color: #071322;
-  transition: 0.05s ease;
+   transition: all 0s ease;
 }
 
 .contact-main .card .form-select:hover {
   border-color: #071322 !important;
   background-color: #f9fafb;
-  transition: 0.05s ease;
+   transition: all 0s ease;
 }
 
 .contact-main .card .form-select:focus {
   border-color: #ee2f4f !important;
   box-shadow: none;
   color: #071322;
-  transition: 0.05s ease;
+   transition: all 0s ease;
 }
 
 .contact-main .card .form-select:valid:not(:focus) {
   border-color: #071322 !important;
-  transition: 0.05s ease;
+   transition: all 0s ease;
 }
 
 
@@ -1079,7 +1078,7 @@ footer ul li {
 .contact-main .card .custom-date {
   margin-bottom: 0.5rem;
   border-color: #c7ccd3 !important;
-  transition: 0.05s ease;
+   transition: all 0s ease;
   box-shadow: none;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -1089,30 +1088,30 @@ footer ul li {
 
 .contact-main .card .custom-date:invalid {
   color: #5a626c;
-  transition: 0.05s ease;
+   transition: all 0s ease;
 }
 
 .contact-main .card .custom-date:hover.custom-date:invalid {
   color: #071322;
-  transition: 0.05s ease;
+   transition: all 0s ease;
 }
 
 .contact-main .card .custom-date:hover {
   border-color: #071322 !important;
   background-color: #f9fafb;
-  transition: 0.05s ease;
+   transition: all 0s ease;
 }
 
 .contact-main .card .custom-date:focus {
   border-color: #ee2f4f !important;
   box-shadow: none;
   color: #071322;
-  transition: 0.05s ease;
+   transition: all 0s ease;
 }
 
 .contact-main .card .custom-date:valid:not(:focus) {
   border-color: #071322 !important;
-  transition: 0.05s ease;
+   transition: all 0s ease;
 }
 
 
@@ -1120,7 +1119,7 @@ footer ul li {
   margin-bottom: 0.5rem;
   border-color: #c7ccd3;
   background-color: #fff;
-  transition: 0.05s ease;
+   transition: all 0s ease;
   box-shadow: none;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -1131,7 +1130,7 @@ footer ul li {
 .contact-main .card .btn-info:hover {
   border-color: #071322 !important;
   background-color: #f9fafb;
-  transition: 0.05s ease;
+   transition: all 0s ease;
 }
 
 .contact-main .card .btn-check:checked + .btn-info {
@@ -1139,7 +1138,7 @@ footer ul li {
   box-shadow: none;
   color: #ee2f4f;
   background-color: #ffc0d1;
-  transition: 0.05s ease;
+   transition: all 0s ease;
 }
 
 .contact-main .form-label ul {
@@ -1153,7 +1152,7 @@ footer ul li {
   border: none;
   background-color: #fff;
   box-shadow: 0 2px 4px #0713221A;
-  transition: 0.05s ease;
+   transition: all 0s ease;
   height: 2.5rem;
   padding: 0;
   overflow: hidden;
@@ -1169,7 +1168,7 @@ footer ul li {
 
 .contact-main .card .btn-light:hover {
   box-shadow: 0 2px 4px #0713223A;
-  transition: 0.05s ease;
+   transition: all 0s ease;
 }
 
 .contact-main .card .btn-check:checked + .btn-light img {
@@ -1182,4 +1181,42 @@ footer ul li {
 
 .submit-buttons button {
   margin-right: .25rem;
+}
+
+
+.contact-contacts ul img {
+  height: 1rem;
+}
+
+.contact-contacts ul h5 {
+  margin-bottom: 0;
+  padding-left: .5rem;
+  padding-top: .1rem;
+  color: #071322;
+}
+
+.contact-contacts ul {
+  margin-top: 1rem;
+  margin-bottom: 0 !important;
+}
+
+.contact-contacts ul li {
+  display: flex;
+  align-items: center;
+}
+
+
+.contact-main .card h2 {
+  margin-bottom: 1rem;
+}
+
+.contact-main .card p {
+  color: #071322;
+}
+
+.contact-section-line {
+  flex-grow: 1;
+  border-top: .15rem solid #c7ccd3;
+  border-radius: 2px;
+  margin-bottom: 1rem;
 }
