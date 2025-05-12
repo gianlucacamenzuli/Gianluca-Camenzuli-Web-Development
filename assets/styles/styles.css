@@ -281,7 +281,6 @@ a {
 
 .card-body {
   padding: 1rem;
-  padding-left: 1.5rem;
 }
 
 .card-body h3 {
@@ -447,7 +446,7 @@ footer ul li {
 .about-main p {
   color: #071322;
   text-align: justify;
-  padding-top: .1rem;
+  padding-top: .4rem;
 }
 
 .about-header {
@@ -466,18 +465,18 @@ footer ul li {
   border-radius: 2px;
 }
 
-.about-card {
+.about-main .card {
   margin-bottom: 2rem;
   padding: 1rem 1.5rem ;
   box-shadow: 0 4px 8px #0713221A;
 }
 
-.about-card:hover {
+.about-main .card:hover {
   box-shadow: 0 4px 8px #0713223A;
   transition: 0.2s ease;
 }
 
-.about-card p {
+.about-main .card p {
   margin: 0;
   padding-top: .4rem;
 }
@@ -727,6 +726,11 @@ footer ul li {
   color: #071322;
   margin-bottom: 0;
   padding-bottom: .25rem;
+  padding-top: .1rem;
+}
+
+.list-main ul h3 {
+  font-weight: 500;
 }
 
 .list-main .card {
@@ -882,3 +886,130 @@ footer ul li {
 .allpitches-button:hover {
   color: #c7ccd3;
 }
+
+
+
+
+.contact-main header {
+  margin-top: 7rem;
+}
+
+.contact-main header h1 {
+  color: #071322;
+  margin-bottom: 0;
+}
+
+.contact-main header p {
+  color: #071322;
+  margin-bottom: 1.5rem;
+}
+
+.contact-main .card {
+  margin-bottom: 2rem;
+  padding: 1rem 1.5rem ;
+  box-shadow: 0 4px 8px #0713221A;
+}
+
+.contact-main .card:hover {
+  box-shadow: 0 4px 8px #0713223A;
+  transition: 0.2s ease;
+}
+
+.contact-main .card legend {
+  Font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #071322;
+  margin-bottom: .5rem;
+}
+
+.contact-main .card .form-label {
+  Font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: .8rem;
+  color: #071322;
+  margin-bottom: .25rem;
+}
+
+.contact-main .card .form-control {
+  margin-bottom: .5rem;
+  border-color: #c7ccd3;
+  border-width: .1rem;
+  transition: 0.05s ease;
+}
+
+.contact-main .card ::placeholder {
+  Font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #5a626c;
+}
+
+.contact-main .card .form-control:hover {
+  border-color: #071322;
+  transition: color 0.05s ease;
+  background-color: #f9fafb;
+}
+
+.contact-main .card .form-control:hover::placeholder {
+ color: #071322;
+ transition: 0.05s ease;
+}
+
+.contact-main .card .form-control:focus {
+  border-color: #ee2f4f;
+  transition: 0.05s ease;
+   box-shadow: none; 
+}
+
+.contact-main .card .form-control:focus::placeholder {
+ color: transparent;
+ transition: 0.05s ease;
+}
+
+.contact-main .card .form-control:not(:placeholder-shown):not(:focus) {
+  border-color: #071322;
+  transition: 0.05s ease;
+}
+
+.contact-main .card .form-check-label {
+  Font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: .8rem;
+  color: #071322;
+  margin-bottom: .25rem;
+  padding-top: .1rem;
+  padding-right: 2rem;
+  cursor: pointer;
+}
+
+.contact-main .card .checkbox {
+  margin-top: .5rem;
+  cursor: pointer;
+}
+
+.contact-main .card .form-check-input {
+  height: 1rem;
+  cursor: pointer;
+  border: 1px solid #c7ccd3;
+  background-color: #fff;
+  transition: 0.05s ease;
+}
+
+
+.contact-main .card .form-check-input:hover {
+  border-color: #071322;
+  background-color: #f9fafb;
+}
+
+.contact-main .card .form-check-input:focus {
+  border-color: #ee2f4f;
+  box-shadow: none;
+}
+
+.contact-main .card .form-check-input:checked {
+  border-color: #071322;
+  background-color: #071322;
+}
+
+
