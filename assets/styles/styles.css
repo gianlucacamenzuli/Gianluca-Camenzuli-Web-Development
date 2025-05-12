@@ -1192,12 +1192,12 @@ footer ul li {
   margin-bottom: 0;
   padding-left: .5rem;
   padding-top: .1rem;
+  margin-right: 1rem;
   color: #071322;
 }
 
 .contact-contacts ul {
   margin-top: 1rem;
-  margin-bottom: 0 !important;
 }
 
 .contact-contacts ul li {
