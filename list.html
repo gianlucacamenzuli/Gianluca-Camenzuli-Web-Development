@@ -38,53 +38,57 @@
     
     <main class="list-main">
         
-      <header>
-    <div class="list-header-wrapper">
-        <div class="header-container container-md">
-            <div class="list-text-header text-center">
-                <h1 class="mb-1">Game Spot: Book Now</h1>
-                <div class="dropdown d-inline-block">
-                    <button class="btn btn-secondary dropdown-toggle d-flex justify-content-between align-items-center" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Filter by Pitch Size
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#" onclick="filterPitches('5')">5-a-side</a></li>
-                        <li><a class="dropdown-item" href="#" onclick="filterPitches('7')">7-a-side</a></li>
-                        <li><a class="dropdown-item" href="#" onclick="filterPitches('11')">11-a-side</a></li>
-                    </ul>
+        <header>
+            <div class="list-header-wrapper">
+                <div class="header-container container-md">
+                    <div class="list-text-header text-center">
+                        <h1 class="mb-1">Game Spot: Book Now</h1>
+                        <div class="dropdown d-inline-block">
+                            <button class="btn btn-secondary dropdown-toggle d-flex justify-content-between align-items-center" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Filter by Pitch Size
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#" onclick="filterPitches('5')">5-a-side</a></li>
+                                <li><a class="dropdown-item" href="#" onclick="filterPitches('7')">7-a-side</a></li>
+                                <li><a class="dropdown-item" href="#" onclick="filterPitches('11')">11-a-side</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="list-bg-img">
+                    <img src="assets/images/LIST_BG.jfif" alt="Background Image">
                 </div>
             </div>
-        </div>
-        
-        <div class="list-bg-img">
-            <img src="assets/images/LIST_BG.jfif" alt="Background Image">
-        </div>
-    </div>
-</header>
-
+        </header>
         
         
         
-
+        
+        
         <div class="container-md" id="pitchContainer">
-
-
+            
+            
             <div class="allpitches-button" onclick="filterPitches('all')">
                 <i class="fa-solid fa-globe"></i>
                 <p class="mb-0">View All Pitches</p>
             </div>
-
+            
             <div class="row">
-
-                 <a href="dedicated01.html" class="col-lg-4 col-md-12" data-size="all 5">
+                
+                <a href="dedicated01.html" class="col-lg-4 col-md-12" data-size="all 5">
                     <div class="card">
                         <div class="image-wrapper position-relative card-img">
                             <img src="assets/images/MARSA FC.png" class="club-logo" alt="CLUB">
-                            <img src="assets/images/5-ASIDE 01 MARSA FC.webp" class="list-card-img-top" alt="PITCH">
+                            <h3 class="section-box position-absolute bottom-0 end-0">5-a-side</h3>
+                            <img src="assets/images/5-ASIDE 02 MOSTA FC.webp" class="list-card-img-top" alt="PITCH">
                         </div>
+                        
                         <div class="card-body d-flex justify-content-between align-items-center">
-                            <div>
-                                <h2 class="card-title">Marsa FC</h2>
+                            <div class="w-100">
+                                    <h2 class="card-title">
+                                        <div class="ellipsis-card-title">Marsa FC</div>
+                                    </h2>
                                 <ul class="list-unstyled d-flex align-items-center gap-2 dedicated-location">
                                     <li>
                                         <img src="assets/images/marker.svg" alt="LOCATION">
@@ -94,335 +98,365 @@
                                     </li>
                                 </ul>
                             </div>
-                            <h3 class="section-box">5-a-side</h3>
+                            
                         </div>
                     </div>
                 </a>
-
+                
                 <a href="dedicated02.html" class="col-lg-4 col-md-12" data-size="all 5">
-                    <div class="card">
-                        <div class="image-wrapper position-relative card-img">
-                            <img src="assets/images/MOSTA FC.png" class="club-logo" alt="CLUB">
-                            <img src="assets/images/5-ASIDE 02 MOSTA FC.webp" class="list-card-img-top" alt="PITCH">
-                        </div>
-                        <div class="card-body d-flex justify-content-between align-items-center">
-                            <div>
-                                <h2 class="card-title">Mosta FC</h2>
-                                <ul class="list-unstyled d-flex align-items-center gap-2 dedicated-location">
-                                    <li>
-                                        <img src="assets/images/marker.svg" alt="LOCATION">
-                                    </li>
-                                    <li>
-                                        <h3>Mosta, Malta</h3>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h3 class="section-box">5-a-side</h3>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="dedicated03.html" class="col-lg-4 col-md-12" data-size="all 5">
-                    <div class="card">
-                        <div class="image-wrapper position-relative card-img">
-                            <img src="assets/images/GZIRA UNITED FC.png" class="club-logo" alt="CLUB">
-                            <img src="assets/images/5-ASIDE 03 GZIRA UNITED FC.webp" class="list-card-img-top" alt="PITCH">
-                        </div>
-                        <div class="card-body d-flex justify-content-between align-items-center">
-                            <div>
-                                <h2 class="card-title">Gżira United FC</h2>
-                                <ul class="list-unstyled d-flex align-items-center gap-2 dedicated-location">
-                                    <li>
-                                        <img src="assets/images/marker.svg" alt="LOCATION">
-                                    </li>
-                                    <li>
-                                        <h3>Gżira, Malta</h3>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h3 class="section-box">5-a-side</h3>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="dedicated04.html" class="col-lg-4 col-md-12" data-size="all 5">
-                    <div class="card">
-                        <div class="image-wrapper position-relative card-img">
-                            <img src="assets/images/ZEJTUN CORINTHIANS FC.png" class="club-logo" alt="CLUB">
-                            <img src="assets/images/5-ASIDE 04 ZEJTUN CORINTHIANS FC.webp" class="list-card-img-top" alt="PITCH">
-                        </div>
-                        <div class="card-body d-flex justify-content-between align-items-center">
-                            <div>
-                                <h2 class="card-title">Żejtun Corinthians FC</h2>
-                                <ul class="list-unstyled d-flex align-items-center gap-2 dedicated-location">
-                                    <li>
-                                        <img src="assets/images/marker.svg" alt="LOCATION">
-                                    </li>
-                                    <li>
-                                        <h3>Żejtun, Malta</h3>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h3 class="section-box">5-a-side</h3>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="dedicated05.html" class="col-lg-4 col-md-12" data-size="all 5">
-                    <div class="card">
-                        <div class="image-wrapper position-relative card-img">
-                            <img src="assets/images/QORMI FC.png" class="club-logo" alt="CLUB">
-                            <img src="assets/images/5-ASIDE 05 QORMI FC - DI SANTOS GROUND.webp" class="list-card-img-top" alt="PITCH">
-                        </div>
-                        <div class="card-body d-flex justify-content-between align-items-center">
-                            <div>
-                                <h2 class="card-title">Qormi FC - Di Santos Ground</h2>
-                                <ul class="list-unstyled d-flex align-items-center gap-2 dedicated-location">
-                                    <li>
-                                        <img src="assets/images/marker.svg" alt="LOCATION">
-                                    </li>
-                                    <li>
-                                        <h3>Ħal Qormi, Malta</h3>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h3 class="section-box">5-a-side</h3>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="dedicated06.html" class="col-lg-4 col-md-12" data-size="all 7">
-                    <div class="card">
-                        <div class="image-wrapper position-relative card-img">
-                            <img src="assets/images/PIETA GROUNDS.png" class="club-logo" alt="CLUB">
-                            <img src="assets/images/7-ASIDE 01 PIETA GROUNDS.webp" class="list-card-img-top" alt="PITCH">
-                        </div>
-                        <div class="card-body d-flex justify-content-between align-items-center">
-                            <div>
-                                <h2 class="card-title">Pietà Grounds</h2>
-                                <ul class="list-unstyled d-flex align-items-center gap-2 dedicated-location">
-                                    <li>
-                                        <img src="assets/images/marker.svg" alt="LOCATION">
-                                    </li>
-                                    <li>
-                                        <h3>Pietà, Malta</h3>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h3 class="section-box">7-a-side</h3>
-                        </div>
-                    </div>
-                </a>
-
-                 <a href="dedicated07.html" class="col-lg-4 col-md-12" data-size="all 7">
-                    <div class="card">
-                        <div class="image-wrapper position-relative card-img">
-                            <img src="assets/images/SAN GWANN FC.png" class="club-logo" alt="CLUB">
-                            <img src="assets/images/7-ASIDE 02 SAN GWANN FC.webp" class="list-card-img-top" alt="PITCH">
-                        </div>
-                        <div class="card-body d-flex justify-content-between align-items-center">
-                            <div>
-                                <h2 class="card-title">San Ġwann FC</h2>
-                                <ul class="list-unstyled d-flex align-items-center gap-2 dedicated-location">
-                                    <li>
-                                        <img src="assets/images/marker.svg" alt="LOCATION">
-                                    </li>
-                                    <li>
-                                        <h3>San Ġwann, Malta</h3>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h3 class="section-box">7-a-side</h3>
-                        </div>
-                    </div>
-                </a>
-
-                 <a href="dedicated08.html" class="col-lg-4 col-md-12" data-size="all 7">
-                    <div class="card">
-                        <div class="image-wrapper position-relative card-img">
-                            <img src="assets/images/SWIEQI FC.png" class="club-logo" alt="CLUB">
-                            <img src="assets/images/7-ASIDE 03 SWIEQI FC.webp" class="list-card-img-top" alt="PITCH">
-                        </div>
-                        <div class="card-body d-flex justify-content-between align-items-center">
-                            <div>
-                                <h2 class="card-title">Swieqi FC</h2>
-                                <ul class="list-unstyled d-flex align-items-center gap-2 dedicated-location">
-                                    <li>
-                                        <img src="assets/images/marker.svg" alt="LOCATION">
-                                    </li>
-                                    <li>
-                                        <h3>Swieqi, Malta</h3>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h3 class="section-box">7-a-side</h3>
-                        </div>
-                    </div>
-                </a>
-
-                 <a href="dedicated09.html" class="col-lg-4 col-md-12" data-size="all 7">
-                    <div class="card">
-                        <div class="image-wrapper position-relative card-img">
-                            <img src="assets/images/NADUR YOUNGSTERS FC.png" class="club-logo" alt="CLUB">
-                            <img src="assets/images/7-ASIDE 04 NADUR YOUNGSTERS FC.webp" class="list-card-img-top" alt="PITCH">
-                        </div>
-                        <div class="card-body d-flex justify-content-between align-items-center">
-                            <div>
-                                <h2 class="card-title">Nadur Youngsters FC</h2>
-                                <ul class="list-unstyled d-flex align-items-center gap-2 dedicated-location">
-                                    <li>
-                                        <img src="assets/images/marker.svg" alt="LOCATION">
-                                    </li>
-                                    <li>
-                                        <h3>Nadur, Malta</h3>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h3 class="section-box">7-a-side</h3>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="dedicated10.html" class="col-lg-4 col-md-12" data-size="all 7">
-                    <div class="card">
-                        <div class="image-wrapper position-relative card-img">
-                            <img src="assets/images/GHARGHUR FC.png" class="club-logo" alt="CLUB">
-                            <img src="assets/images/7-ASIDE 05 GHARGHUR FC.webp" class="list-card-img-top" alt="PITCH">
-                        </div>
-                        <div class="card-body d-flex justify-content-between align-items-center">
-                            <div>
-                                <h2 class="card-title">Għargħur FC</h2>
-                                <ul class="list-unstyled d-flex align-items-center gap-2 dedicated-location">
-                                    <li>
-                                        <img src="assets/images/marker.svg" alt="LOCATION">
-                                    </li>
-                                    <li>
-                                        <h3>Għargħur, Malta</h3>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h3 class="section-box">7-a-side</h3>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="dedicated11.html" class="col-lg-4 col-md-12" data-size="all 11">
-                    <div class="card">
-                        <div class="image-wrapper position-relative card-img">
-                            <img src="assets/images/SANTA LUCIA FC.png" class="club-logo" alt="CLUB">
-                            <img src="assets/images/11-ASIDE 01 SANTA LUCIA FC.jpeg" class="list-card-img-top" alt="PITCH">
-                        </div>
-                        <div class="card-body d-flex justify-content-between align-items-center">
-                            <div>
-                                <h2 class="card-title">Santa Lucia FC</h2>
-                                <ul class="list-unstyled d-flex align-items-center gap-2 dedicated-location">
-                                    <li>
-                                        <img src="assets/images/marker.svg" alt="LOCATION">
-                                    </li>
-                                    <li>
-                                        <h3>Santa Luċija, Malta</h3>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h3 class="section-box">11-a-side</h3>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="dedicated12.html" class="col-lg-4 col-md-12" data-size="all 11">
-                    <div class="card">
-                        <div class="image-wrapper position-relative card-img">
-                            <img src="assets/images/TARXIEN RAINBOWS FC.png" class="club-logo" alt="CLUB">
-                            <img src="assets/images/11-ASIDE 02 TARXIEN RAINBOWS.webp" class="list-card-img-top" alt="PITCH">
-                        </div>
-                        <div class="card-body d-flex justify-content-between align-items-center">
-                            <div>
-                                <h2 class="card-title">Tarxien Raibows FC</h2>
-                                <ul class="list-unstyled d-flex align-items-center gap-2 dedicated-location">
-                                    <li>
-                                        <img src="assets/images/marker.svg" alt="LOCATION">
-                                    </li>
-                                    <li>
-                                        <h3>Ħal Tarxien, Malta</h3>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h3 class="section-box">11-a-side</h3>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="dedicated13.html" class="col-lg-4 col-md-12" data-size="all 11">
-                    <div class="card">
-                        <div class="image-wrapper position-relative card-img">
-                            <img src="assets/images/SIGGIEWI FC.png" class="club-logo" alt="CLUB">
-                            <img src="assets/images/11-ASIDE 03 SIGGIEWI FC.webp" class="list-card-img-top" alt="PITCH">
-                        </div>
-                        <div class="card-body d-flex justify-content-between align-items-center">
-                            <div>
-                                <h2 class="card-title">Siġġiewi FC</h2>
-                                <ul class="list-unstyled d-flex align-items-center gap-2 dedicated-location">
-                                    <li>
-                                        <img src="assets/images/marker.svg" alt="LOCATION">
-                                    </li>
-                                    <li>
-                                        <h3>Siġġiewi, Malta</h3>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h3 class="section-box">11-a-side</h3>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="dedicated14.html" class="col-lg-4 col-md-12" data-size="all 11">
-                    <div class="card">
-                        <div class="image-wrapper position-relative card-img">
-                            <img src="assets/images/ZABBAR ST PATRICKS FC.png" class="club-logo" alt="CLUB">
-                            <img src="assets/images/11-ASIDE 04 ZABBAR ST PATRICKS.webp" class="list-card-img-top" alt="PITCH">
-                        </div>
-                        <div class="card-body d-flex justify-content-between align-items-center">
-                            <div>
-                                <h2 class="card-title">Żabbar St. Patricks FC</h2>
-                                <ul class="list-unstyled d-flex align-items-center gap-2 dedicated-location">
-                                    <li>
-                                        <img src="assets/images/marker.svg" alt="LOCATION">
-                                    </li>
-                                    <li>
-                                        <h3>Ħaż Żabbar, Malta</h3>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h3 class="section-box">11-a-side</h3>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="dedicated15.html" class="col-lg-4 col-md-12" data-size="all 11">
-                    <div class="card">
-                        <div class="image-wrapper position-relative card-img">
-                            <img src="assets/images/FGURA UNITED FC.png" class="club-logo" alt="CLUB">
-                            <img src="assets/images/11-ASIDE 05 FGURA UNITED FC.webp" class="list-card-img-top" alt="PITCH">
-                        </div>
-                        <div class="card-body d-flex justify-content-between align-items-center">
-                            <div>
-                                <h2 class="card-title">Fgura United FC</h2>
-                                <ul class="list-unstyled d-flex align-items-center gap-2 dedicated-location">
-                                    <li>
-                                        <img src="assets/images/marker.svg" alt="LOCATION">
-                                    </li>
-                                    <li>
-                                        <h3>Fgura, Malta</h3>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h3 class="section-box">11-a-side</h3>
-                        </div>
-                    </div>
-                </a>
-
+    <div class="card">
+        <div class="image-wrapper position-relative card-img">
+            <img src="assets/images/MOSTA FC.png" class="club-logo" alt="CLUB">
+            <h3 class="section-box position-absolute bottom-0 end-0">5-a-side</h3>
+            <img src="assets/images/5-ASIDE 02 MOSTA FC.webp" class="list-card-img-top" alt="PITCH">
+        </div>
+        <div class="card-body d-flex justify-content-between align-items-center">
+            <div class="w-100">
+                <h2 class="card-title">
+                    <div class="ellipsis-card-title">Mosta FC</div>
+                </h2>
+                <ul class="list-unstyled d-flex align-items-center gap-2 dedicated-location">
+                    <li>
+                        <img src="assets/images/marker.svg" alt="LOCATION">
+                    </li>
+                    <li>
+                        <h3>Mosta, Malta</h3>
+                    </li>
+                </ul>
             </div>
+        </div>
+    </div>
+</a>
 
+<a href="dedicated03.html" class="col-lg-4 col-md-12" data-size="all 5">
+    <div class="card">
+        <div class="image-wrapper position-relative card-img">
+            <img src="assets/images/GZIRA UNITED FC.png" class="club-logo" alt="CLUB">
+            <h3 class="section-box position-absolute bottom-0 end-0">5-a-side</h3>
+            <img src="assets/images/5-ASIDE 03 GZIRA UNITED FC.webp" class="list-card-img-top" alt="PITCH">
+        </div>
+        <div class="card-body d-flex justify-content-between align-items-center">
+            <div class="w-100">
+                <h2 class="card-title">
+                    <div class="ellipsis-card-title">Gżira United FC</div>
+                </h2>
+                <ul class="list-unstyled d-flex align-items-center gap-2 dedicated-location">
+                    <li>
+                        <img src="assets/images/marker.svg" alt="LOCATION">
+                    </li>
+                    <li>
+                        <h3>Gżira, Malta</h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</a>
+
+<a href="dedicated04.html" class="col-lg-4 col-md-12" data-size="all 5">
+    <div class="card">
+        <div class="image-wrapper position-relative card-img">
+            <img src="assets/images/ZEJTUN CORINTHIANS FC.png" class="club-logo" alt="CLUB">
+            <h3 class="section-box position-absolute bottom-0 end-0">5-a-side</h3>
+            <img src="assets/images/5-ASIDE 04 ZEJTUN CORINTHIANS FC.webp" class="list-card-img-top" alt="PITCH">
+        </div>
+        <div class="card-body d-flex justify-content-between align-items-center">
+            <div class="w-100">
+                <h2 class="card-title">
+                    <div class="ellipsis-card-title">Żejtun Corinthians FC</div>
+                </h2>
+                <ul class="list-unstyled d-flex align-items-center gap-2 dedicated-location">
+                    <li>
+                        <img src="assets/images/marker.svg" alt="LOCATION">
+                    </li>
+                    <li>
+                        <h3>Żejtun, Malta</h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</a>
+
+<a href="dedicated05.html" class="col-lg-4 col-md-12" data-size="all 5">
+    <div class="card">
+        <div class="image-wrapper position-relative card-img">
+            <img src="assets/images/QORMI FC.png" class="club-logo" alt="CLUB">
+            <h3 class="section-box position-absolute bottom-0 end-0">5-a-side</h3>
+            <img src="assets/images/5-ASIDE 05 QORMI FC - DI SANTOS GROUND.webp" class="list-card-img-top" alt="PITCH">
+        </div>
+        <div class="card-body d-flex justify-content-between align-items-center">
+            <div class="w-100">
+                <h2 class="card-title">
+                    <div class="ellipsis-card-title">Qormi FC - Di Santos Ground</div>
+                </h2>
+                <ul class="list-unstyled d-flex align-items-center gap-2 dedicated-location">
+                    <li>
+                        <img src="assets/images/marker.svg" alt="LOCATION">
+                    </li>
+                    <li>
+                        <h3>Ħal Qormi, Malta</h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</a>
+
+<a href="dedicated06.html" class="col-lg-4 col-md-12" data-size="all 7">
+    <div class="card">
+        <div class="image-wrapper position-relative card-img">
+            <img src="assets/images/PIETA GROUNDS.png" class="club-logo" alt="CLUB">
+            <h3 class="section-box position-absolute bottom-0 end-0">7-a-side</h3>
+            <img src="assets/images/7-ASIDE 01 PIETA GROUNDS.webp" class="list-card-img-top" alt="PITCH">
+        </div>
+        <div class="card-body d-flex justify-content-between align-items-center">
+            <div class="w-100">
+                <h2 class="card-title">
+                    <div class="ellipsis-card-title">Pietà Grounds</div>
+                </h2>
+                <ul class="list-unstyled d-flex align-items-center gap-2 dedicated-location">
+                    <li>
+                        <img src="assets/images/marker.svg" alt="LOCATION">
+                    </li>
+                    <li>
+                        <h3>Pietà, Malta</h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</a>
+
+<a href="dedicated07.html" class="col-lg-4 col-md-12" data-size="all 7">
+    <div class="card">
+        <div class="image-wrapper position-relative card-img">
+            <img src="assets/images/SAN GWANN FC.png" class="club-logo" alt="CLUB">
+            <h3 class="section-box position-absolute bottom-0 end-0">7-a-side</h3>
+            <img src="assets/images/7-ASIDE 02 SAN GWANN FC.webp" class="list-card-img-top" alt="PITCH">
+        </div>
+        <div class="card-body d-flex justify-content-between align-items-center">
+            <div class="w-100">
+                <h2 class="card-title">
+                    <div class="ellipsis-card-title">San Ġwann FC</div>
+                </h2>
+                <ul class="list-unstyled d-flex align-items-center gap-2 dedicated-location">
+                    <li>
+                        <img src="assets/images/marker.svg" alt="LOCATION">
+                    </li>
+                    <li>
+                        <h3>San Ġwann, Malta</h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</a>
+
+<a href="dedicated08.html" class="col-lg-4 col-md-12" data-size="all 7">
+    <div class="card">
+        <div class="image-wrapper position-relative card-img">
+            <img src="assets/images/SWIEQI FC.png" class="club-logo" alt="CLUB">
+            <h3 class="section-box position-absolute bottom-0 end-0">7-a-side</h3>
+            <img src="assets/images/7-ASIDE 03 SWIEQI FC.webp" class="list-card-img-top" alt="PITCH">
+        </div>
+        <div class="card-body d-flex justify-content-between align-items-center">
+            <div class="w-100">
+                <h2 class="card-title">
+                    <div class="ellipsis-card-title">Swieqi FC</div>
+                </h2>
+                <ul class="list-unstyled d-flex align-items-center gap-2 dedicated-location">
+                    <li>
+                        <img src="assets/images/marker.svg" alt="LOCATION">
+                    </li>
+                    <li>
+                        <h3>Swieqi, Malta</h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</a>
+
+<a href="dedicated09.html" class="col-lg-4 col-md-12" data-size="all 7">
+    <div class="card">
+        <div class="image-wrapper position-relative card-img">
+            <img src="assets/images/NADUR YOUNGSTERS FC.png" class="club-logo" alt="CLUB">
+            <h3 class="section-box position-absolute bottom-0 end-0">7-a-side</h3>
+            <img src="assets/images/7-ASIDE 04 NADUR YOUNGSTERS FC.webp" class="list-card-img-top" alt="PITCH">
+        </div>
+        <div class="card-body d-flex justify-content-between align-items-center">
+            <div class="w-100">
+                <h2 class="card-title">
+                    <div class="ellipsis-card-title">Nadur Youngsters FC</div>
+                </h2>
+                <ul class="list-unstyled d-flex align-items-center gap-2 dedicated-location">
+                    <li>
+                        <img src="assets/images/marker.svg" alt="LOCATION">
+                    </li>
+                    <li>
+                        <h3>Nadur, Gozo</h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</a>
+
+<a href="dedicated10.html" class="col-lg-4 col-md-12" data-size="all 7">
+    <div class="card">
+        <div class="image-wrapper position-relative card-img">
+            <img src="assets/images/GHARGHUR FC.png" class="club-logo" alt="CLUB">
+            <h3 class="section-box position-absolute bottom-0 end-0">7-a-side</h3>
+            <img src="assets/images/7-ASIDE 05 GHARGHUR FC.webp" class="list-card-img-top" alt="PITCH">
+        </div>
+        <div class="card-body d-flex justify-content-between align-items-center">
+            <div class="w-100">
+                <h2 class="card-title">
+                    <div class="ellipsis-card-title">Għargħur FC</div>
+                </h2>
+                <ul class="list-unstyled d-flex align-items-center gap-2 dedicated-location">
+                    <li>
+                        <img src="assets/images/marker.svg" alt="LOCATION">
+                    </li>
+                    <li>
+                        <h3>Għargħur, Malta</h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</a>
+
+                
+               <a href="dedicated11.html" class="col-lg-4 col-md-12" data-size="all 11">
+    <div class="card">
+        <div class="image-wrapper position-relative card-img">
+            <img src="assets/images/SANTA LUCIA FC.png" class="club-logo" alt="CLUB">
+            <h3 class="section-box position-absolute bottom-0 end-0">11-a-side</h3>
+            <img src="assets/images/11-ASIDE 01 SANTA LUCIA FC.jpeg" class="list-card-img-top" alt="PITCH">
+        </div>
+        <div class="card-body d-flex justify-content-between align-items-center">
+            <div class="w-100">
+                <h2 class="card-title">
+                    <div class="ellipsis-card-title">Santa Lucia FC</div>
+                </h2>
+                <ul class="list-unstyled d-flex align-items-center gap-2 dedicated-location">
+                    <li>
+                        <img src="assets/images/marker.svg" alt="LOCATION">
+                    </li>
+                    <li>
+                        <h3>Santa Luċija, Malta</h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</a>
+
+<a href="dedicated12.html" class="col-lg-4 col-md-12" data-size="all 11">
+    <div class="card">
+        <div class="image-wrapper position-relative card-img">
+            <img src="assets/images/TARXIEN RAINBOWS FC.png" class="club-logo" alt="CLUB">
+            <h3 class="section-box position-absolute bottom-0 end-0">11-a-side</h3>
+            <img src="assets/images/11-ASIDE 02 TARXIEN RAINBOWS.webp" class="list-card-img-top" alt="PITCH">
+        </div>
+        <div class="card-body d-flex justify-content-between align-items-center">
+            <div class="w-100">
+                <h2 class="card-title">
+                    <div class="ellipsis-card-title">Tarxien Raibows FC</div>
+                </h2>
+                <ul class="list-unstyled d-flex align-items-center gap-2 dedicated-location">
+                    <li>
+                        <img src="assets/images/marker.svg" alt="LOCATION">
+                    </li>
+                    <li>
+                        <h3>Ħal Tarxien, Malta</h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</a>
+
+<a href="dedicated13.html" class="col-lg-4 col-md-12" data-size="all 11">
+    <div class="card">
+        <div class="image-wrapper position-relative card-img">
+            <img src="assets/images/SIGGIEWI FC.png" class="club-logo" alt="CLUB">
+            <h3 class="section-box position-absolute bottom-0 end-0">11-a-side</h3>
+            <img src="assets/images/11-ASIDE 03 SIGGIEWI FC.webp" class="list-card-img-top" alt="PITCH">
+        </div>
+        <div class="card-body d-flex justify-content-between align-items-center">
+            <div class="w-100">
+                <h2 class="card-title">
+                    <div class="ellipsis-card-title">Siġġiewi FC</div>
+                </h2>
+                <ul class="list-unstyled d-flex align-items-center gap-2 dedicated-location">
+                    <li>
+                        <img src="assets/images/marker.svg" alt="LOCATION">
+                    </li>
+                    <li>
+                        <h3>Siġġiewi, Malta</h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</a>
+
+<a href="dedicated14.html" class="col-lg-4 col-md-12" data-size="all 11">
+    <div class="card">
+        <div class="image-wrapper position-relative card-img">
+            <img src="assets/images/ZABBAR ST PATRICKS FC.png" class="club-logo" alt="CLUB">
+            <h3 class="section-box position-absolute bottom-0 end-0">11-a-side</h3>
+            <img src="assets/images/11-ASIDE 04 ZABBAR ST PATRICKS.webp" class="list-card-img-top" alt="PITCH">
+        </div>
+        <div class="card-body d-flex justify-content-between align-items-center">
+            <div class="w-100">
+                <h2 class="card-title">
+                    <div class="ellipsis-card-title">Żabbar St. Patricks FC</div>
+                </h2>
+                <ul class="list-unstyled d-flex align-items-center gap-2 dedicated-location">
+                    <li>
+                        <img src="assets/images/marker.svg" alt="LOCATION">
+                    </li>
+                    <li>
+                        <h3>Ħaż Żabbar, Malta</h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</a>
+
+<a href="dedicated15.html" class="col-lg-4 col-md-12" data-size="all 11">
+    <div class="card">
+        <div class="image-wrapper position-relative card-img">
+            <img src="assets/images/FGURA UNITED FC.png" class="club-logo" alt="CLUB">
+            <h3 class="section-box position-absolute bottom-0 end-0">11-a-side</h3>
+            <img src="assets/images/11-ASIDE 05 FGURA UNITED FC.webp" class="list-card-img-top" alt="PITCH">
+        </div>
+        <div class="card-body d-flex justify-content-between align-items-center">
+            <div class="w-100">
+                <h2 class="card-title">
+                    <div class="ellipsis-card-title">Fgura United FC</div>
+                </h2>
+                <ul class="list-unstyled d-flex align-items-center gap-2 dedicated-location">
+                    <li>
+                        <img src="assets/images/marker.svg" alt="LOCATION">
+                    </li>
+                    <li>
+                        <h3>Fgura, Malta</h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</a>
+
+                
+            </div>
+            
             
             
             
@@ -435,7 +469,7 @@
     </main>
     
     <footer class="container-fluid bg-primary text-white">
-        <div class="container-md footer">
+        <div class="container-md footer footer-list">
             <div class="d-flex justify-content-between align-items-center flex-wrap">
                 <ul class="list-unstyled d-flex align-items-center">
                     <li>
@@ -484,18 +518,19 @@
         });
     </script>
     <script>
-  function filterPitches(size) {
-    const cards = document.querySelectorAll(".col-lg-4");
+        function filterPitches(size) {
+            const cards = document.querySelectorAll(".col-lg-4");
+            
+            cards.forEach(card => {
+                const cardSizes = card.getAttribute("data-size").split(" ");
+                if (cardSizes.includes(size) || size === 'all') {
+                    card.style.display = "block";
+                } else {
+                    card.style.display = "none";
+                }
+            });
+        }
+    </script>
     
-    cards.forEach(card => {
-      const cardSizes = card.getAttribute("data-size").split(" ");
-      if (cardSizes.includes(size) || size === 'all') {
-        card.style.display = "block";
-      } else {
-        card.style.display = "none";
-      }
-    });
-  }
-</script>
 </body>
 </html>

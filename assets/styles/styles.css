@@ -365,6 +365,11 @@ main h2 {
   margin-top: 5rem;
 }
 
+.footer-list {
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  margin-top: 3.5rem;
+}
 
 footer ul img {
   height: 1rem;
@@ -671,6 +676,22 @@ footer ul li {
   object-position: 50% 40%;
 }
 
+.dedicated-bg-img-03 img {
+  object-position: 50% 20%;
+}
+
+.dedicated-bg-img-04 img {
+  object-position: 50% 60%;
+}
+
+.dedicated-bg-img-05 img {
+  object-position: 50% 30%;
+}
+
+.dedicated-bg-img-06 img {
+  object-position: 50% 15%;
+}
+
 @media (max-width: 991.98px) {
   .dedicated-bg-img img {
     object-position: 50% 57%;
@@ -703,7 +724,7 @@ footer ul li {
 
 .dedicated-location h3 {
   margin: 0;
-  padding-top: .2rem;
+  padding-top: .25rem;
 }
 
 .dedicated-location li {
@@ -729,28 +750,29 @@ footer ul li {
 
 
 
-
-
-.list-main .card {
-  margin-bottom: 1.5rem;
-}
-
 .list-main .card-body {
-  padding: 1.25rem 2.5rem 1.25rem 2.5rem;
-}
-
-.list-main h2 {
-  margin-bottom: 1rem;
+  padding: 1rem 2.5rem 1rem 2.5rem;
 }
 
 .list-main ul {
   color: #071322;
-  margin-bottom: 0;
-  padding-bottom: .25rem;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
 }
 
 .list-main ul h3 {
   font-weight: 500;
+  font-size: 1rem;
+  padding-top: .2rem;
+}
+
+.ellipsis-card-title {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .list-main .card {
@@ -787,9 +809,10 @@ footer ul li {
 }
 
 .list-main .section-box {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; 
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  background-color: #071322;
+  font-weight: 500;
 }
 
 .card:hover .card-img {
