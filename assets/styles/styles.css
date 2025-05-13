@@ -875,6 +875,11 @@ footer ul li {
 
 .list-main .dropdown-item:hover {
   background-color: #f2f4f7;
+  border-radius: .25rem;
+}
+
+.list-main .dropdown-item:focus {
+  color: #071322;
 }
 
 
