@@ -52,13 +52,13 @@ a {
   font-weight: 500;
   font-size: 1rem;
   padding: .5rem 1rem .5rem 1rem;
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 .btn-primary:hover {
   background-color: #ffc0d1;
   border-color: #ffc0d1;
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 .btn-primary:focus,
@@ -77,13 +77,13 @@ a {
   font-weight: 500;
   font-size: 1rem;
   padding: .5rem 1rem .5rem 1rem;
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 .btn-secondary:hover {
   background-color: #c7ccd3;
   border-color: #c7ccd3;
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 .btn-secondary:focus,
@@ -103,15 +103,23 @@ a {
   font-weight: 500;
   font-size: 1rem;
   padding: .5rem 1rem .5rem 1rem;
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 .btn-outline-secondary:hover {
   background-color: #f2f4f7;
   border-color: #5a626c;
-   transition: all 0s ease;
+  transition: all 0s ease;
   color: #5a626c;
 }
+
+.btn-outline-secondary:focus:active {
+  background-color: #f2f4f7;
+  border-color: #5a626c;
+  transition: all 0s ease;
+  color: #5a626c;
+}
+
 
 .menu-logo {
   height: 1rem;
@@ -125,12 +133,12 @@ a {
 
 .navbar.scrolled .menu-logo {
   filter: none;
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 .navbar.scrolled .menu-logo:hover {
   filter: brightness(12) saturate(0.1);
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 .menu-links {
@@ -145,7 +153,7 @@ a {
   padding-left: 0 !important;
   margin-right: 2rem;
   color: #fff;
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 .nav-link:hover{
@@ -154,12 +162,12 @@ a {
 
 .navbar.scrolled .nav-link {
   color: #071322;
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 .navbar.scrolled .nav-link:hover {
   color: #c7ccd3;
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 @media (max-width: 991.98px) {
@@ -215,22 +223,22 @@ a {
 
 .navbar-white .nav-link {
   color: #071322;
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 .navbar-white .nav-link:hover {
   color: #c7ccd3;
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 .navbar-white .menu-logo {
   filter: none;
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 .navbar-white .menu-logo:hover {
   filter: brightness(12) saturate(0.1);
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 .navbar-white .navbar-toggler-icon {
@@ -297,7 +305,7 @@ a {
 
 .card:hover .card-img-top {
   filter: opacity(50%);
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 .card-body {
@@ -342,7 +350,7 @@ a {
 .carousel-control-prev:hover .carousel-control-prev-icon,
 .carousel-control-next:hover .carousel-control-next-icon {
   opacity: 85%;
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 main h2 {
@@ -499,7 +507,7 @@ footer ul li {
 
 .about-main .card:hover {
   box-shadow: 0 4px 8px #0713223A;
- transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 .about-main .card p {
@@ -622,7 +630,7 @@ footer ul li {
 
 .dedicated-main .card:hover {
   box-shadow: 0 4px 8px #0713223A;
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 .pitch-details li {
@@ -960,7 +968,7 @@ footer ul li {
 
 .contact-main .card:hover {
   box-shadow: 0 4px 8px #0713223A;
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 .contact-main .card legend {
@@ -1012,12 +1020,12 @@ footer ul li {
 
 .contact-main .card .form-control:focus::placeholder {
   color: transparent;
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 .contact-main .card .form-control:not(:placeholder-shown):not(:focus) {
   border-color: #071322;
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 .contact-main .card .form-check-label {
@@ -1041,7 +1049,7 @@ footer ul li {
   cursor: pointer;
   border: 1px solid #c7ccd3;
   background-color: #fff;
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 
@@ -1065,7 +1073,7 @@ footer ul li {
 .contact-main .card .form-select {
   margin-bottom: 0.5rem;
   border-color: #c7ccd3 !important;
-   transition: all 0s ease;
+  transition: all 0s ease;
   box-shadow: none;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -1076,38 +1084,44 @@ footer ul li {
 
 .contact-main .card .form-select:invalid {
   color: #5a626c;
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 .contact-main .card .form-select:hover.form-select:invalid {
   color: #071322;
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 .contact-main .card .form-select:hover {
   border-color: #071322 !important;
   background-color: #f9fafb;
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 .contact-main .card .form-select:focus {
   border-color: #ee2f4f !important;
   box-shadow: none;
   color: #071322;
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 .contact-main .card .form-select:valid:not(:focus) {
   border-color: #071322 !important;
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
-
+.readonly-select {
+  pointer-events: none;
+  border-color: #071322;
+  background-color: #f9fafb;
+  transition: all 0s ease;
+  box-shadow: none;
+}
 
 .contact-main .card .custom-date {
   margin-bottom: 0.5rem;
   border-color: #c7ccd3 !important;
-   transition: all 0s ease;
+  transition: all 0s ease;
   box-shadow: none;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -1117,30 +1131,30 @@ footer ul li {
 
 .contact-main .card .custom-date:invalid {
   color: #5a626c;
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 .contact-main .card .custom-date:hover.custom-date:invalid {
   color: #071322;
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 .contact-main .card .custom-date:hover {
   border-color: #071322 !important;
   background-color: #f9fafb;
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 .contact-main .card .custom-date:focus {
   border-color: #ee2f4f !important;
   box-shadow: none;
   color: #071322;
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 .contact-main .card .custom-date:valid:not(:focus) {
   border-color: #071322 !important;
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 
@@ -1148,8 +1162,8 @@ footer ul li {
   margin-bottom: 0.5rem;
   border-color: #c7ccd3;
   background-color: #fff;
-   transition: all 0s ease;
-   border-width: .1rem;
+  transition: all 0s ease;
+  border-width: .1rem;
   box-shadow: none;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -1160,7 +1174,7 @@ footer ul li {
 .contact-main .card .btn-info:hover {
   border-color: #071322 !important;
   background-color: #f9fafb;
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 .contact-main .card .btn-check:checked + .btn-info {
@@ -1168,7 +1182,7 @@ footer ul li {
   box-shadow: none;
   color: #ee2f4f;
   background-color: #ffc0d1;
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 .contact-main .form-label ul {
@@ -1182,7 +1196,7 @@ footer ul li {
   border: none;
   background-color: #fff;
   box-shadow: 0 2px 4px #0713221A;
-   transition: all 0s ease;
+  transition: all 0s ease;
   height: 2.5rem;
   padding: 0;
   overflow: hidden;
@@ -1198,7 +1212,7 @@ footer ul li {
 
 .contact-main .card .btn-light:hover {
   box-shadow: 0 2px 4px #0713223A;
-   transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 .contact-main .card .btn-check:checked + .btn-light img {
