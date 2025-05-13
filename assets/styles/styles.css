@@ -1043,6 +1043,7 @@ footer ul li {
   font-weight: 400;
   font-size: 1rem;
   color: #071322;
+  border-width: .1rem;
 }
 
 .contact-main .card .form-select:invalid {
@@ -1120,6 +1121,7 @@ footer ul li {
   border-color: #c7ccd3;
   background-color: #fff;
    transition: all 0s ease;
+   border-width: .1rem;
   box-shadow: none;
   font-family: "Inter", sans-serif;
   font-weight: 400;
