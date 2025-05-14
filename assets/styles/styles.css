@@ -1,3 +1,5 @@
+/* Headings */
+
 h1 {
   Font-family: "Inter", sans-serif;
   font-weight: 700;
@@ -45,6 +47,9 @@ a {
   text-decoration: 0;
 }
 
+
+/* Buttons */
+
 .btn-primary {
   background-color: #ee2f4f;
   border-color: #ee2f4f;
@@ -69,7 +74,6 @@ a {
   color: #fff !important;
 }
 
-
 .btn-secondary {
   background-color: #071322;
   border-color: #071322;
@@ -93,7 +97,6 @@ a {
   border-color: #c7ccd3 !important;
   color: #fff !important;
 }
-
 
 .btn-outline-secondary {
   background-color: #fff;
@@ -120,6 +123,8 @@ a {
   color: #5a626c;
 }
 
+
+/* NavBar */
 
 .menu-logo {
   height: 1rem;
@@ -203,7 +208,6 @@ a {
   opacity: 70%;
 }
 
-
 .navbar-toggler {
   border: none;
 }
@@ -248,6 +252,9 @@ a {
 .navbar-white .navbar-toggler-icon:hover {
   opacity: 25%;
 }
+
+
+/* Home Page */
 
 .home-main header {
   position: relative;
@@ -329,7 +336,6 @@ a {
   margin-top: 1rem;
 }
 
-
 .carousel-control-prev,
 .carousel-control-next {
   margin: 3rem;
@@ -366,6 +372,9 @@ main h2 {
 .home-carousel-section {
   margin-bottom: 3.5rem;
 }
+
+
+/* Footer */
 
 .footer {
   padding-top: 1.2rem;
@@ -442,8 +451,7 @@ footer ul li {
 }
 
 
-
-
+/* About Page */
 
 .about-main header {
   position: relative;
@@ -514,6 +522,9 @@ footer ul li {
   margin: 0;
   padding-top: .4rem;
 }
+
+
+/* Dedicated Page */
 
 .section-box {
   background-color: #f2f4f7;
@@ -640,7 +651,6 @@ footer ul li {
   color: #071322;
 }
 
-
 @media (max-width: 991.98px) {
   .add-ons-section .section-box {
     margin-top: .5rem;
@@ -650,7 +660,6 @@ footer ul li {
     margin-left: 1.5rem;
   }
 }
-
 
 .dedicated-main header {
   position: relative;
@@ -706,7 +715,6 @@ footer ul li {
   }
 }
 
-
 .dedicated-header-wrapper h1{
   margin-bottom: 0;
 }
@@ -745,7 +753,6 @@ footer ul li {
   padding-top: .3rem;
 }
 
-
 @media (max-width: 991.98px) {
   .dedicated-main header img {
     object-position: 50% 50%;
@@ -757,6 +764,7 @@ footer ul li {
 }
 
 
+/* List Page */
 
 .list-main .card-body {
   padding: 1rem 2.5rem 1rem 2.5rem;
@@ -827,7 +835,6 @@ footer ul li {
   filter: opacity(50%);
   transition: all 0s ease;
 }
-
 
 .list-header-wrapper {
   position: relative;
@@ -913,7 +920,6 @@ footer ul li {
   color: #071322;
 }
 
-
 .allpitches-button {
   display: flex;
   align-items: center;
@@ -944,7 +950,7 @@ footer ul li {
 }
 
 
-
+/* Contact Page */
 
 .contact-main header {
   margin-top: 7rem;
@@ -1052,7 +1058,6 @@ footer ul li {
   transition: all 0s ease;
 }
 
-
 .contact-main .card .form-check-input:hover {
   border-color: #071322;
   background-color: #f9fafb;
@@ -1067,8 +1072,6 @@ footer ul li {
   border-color: #071322;
   background-color: #071322;
 }
-
-
 
 .contact-main .card .form-select {
   margin-bottom: 0.5rem;
@@ -1157,7 +1160,6 @@ footer ul li {
   transition: all 0s ease;
 }
 
-
 .contact-main .card .btn-info {
   margin-bottom: 0.5rem;
   border-color: #c7ccd3;
@@ -1188,8 +1190,6 @@ footer ul li {
 .contact-main .form-label ul {
   margin-bottom: 10rem;
 }
-
-
 
 .contact-main .card .btn-light {
   margin-bottom: 0.5rem;
@@ -1227,7 +1227,6 @@ footer ul li {
   margin-right: .25rem;
 }
 
-
 .contact-contacts ul img {
   height: 1rem;
 }
@@ -1248,7 +1247,6 @@ footer ul li {
   display: flex;
   align-items: center;
 }
-
 
 .contact-main .card h2 {
   margin-bottom: 1rem;
